@@ -1,0 +1,83 @@
+{
+   ExpandedHierarchyInLayout: "",
+   guistr: "# # String gsaved with Nlview 6.6.11  2017-06-12 bk=1.3860 VDI=40 GEI=35 GUI=JA:1.6
+#  -string -flagsOSRD
+preplace port BT_CTS_IN_N -pg 1 -y 20 -defaultsOSRD
+preplace port DDR -pg 1 -y 80 -defaultsOSRD
+preplace port WL_SDIO_CLK -pg 1 -y 140 -defaultsOSRD
+preplace port iic_rtl_0 -pg 1 -y 200 -defaultsOSRD
+preplace port BT_REG_ON -pg 1 -y 40 -defaultsOSRD
+preplace port BT_RXD_IN -pg 1 -y 60 -defaultsOSRD
+preplace port WL_SDIO_CMD -pg 1 -y 160 -defaultsOSRD
+preplace port FIXED_IO -pg 1 -y 100 -defaultsOSRD
+preplace port BT_HOST_WAKE -pg 1 -y 20 -defaultsOSRD
+preplace port pl_led_r -pg 1 -y 240 -defaultsOSRD
+preplace port WL_HOST_WAKE -pg 1 -y 80 -defaultsOSRD
+preplace port BT_TXD_OUT -pg 1 -y 60 -defaultsOSRD
+preplace port pl_sw_1bit -pg 1 -y 260 -defaultsOSRD
+preplace port WL_REG_ON -pg 1 -y 120 -defaultsOSRD
+preplace port pl_led_g -pg 1 -y 220 -defaultsOSRD
+preplace port BT_RTS_OUT_N -pg 1 -y 40 -defaultsOSRD
+preplace portBus WL_SDIO_DAT -pg 1 -y 180 -defaultsOSRD
+preplace inst rst_ps7_0_50M -pg 1 -lvl 1 -y 490 -defaultsOSRD
+preplace inst axi_iic_0 -pg 1 -lvl 2 -y 330 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 2 -y 1730 -defaultsOSRD
+preplace inst xlconcat_0 -pg 1 -lvl 1 -y 630 -defaultsOSRD
+preplace inst axi_gpio_0 -pg 1 -lvl 2 -y 70 -defaultsOSRD
+preplace inst axi_gpio_1 -pg 1 -lvl 2 -y 200 -defaultsOSRD
+preplace inst wireless_mgr_0 -pg 1 -lvl 1 -y 190 -defaultsOSRD
+preplace inst ps7_0_axi_periph -pg 1 -lvl 2 -y 1360 -defaultsOSRD
+preplace inst bluetooth_uart -pg 1 -lvl 2 -y 500 -defaultsOSRD
+preplace inst processing_system7_0 -pg 1 -lvl 2 -y 900 -defaultsOSRD
+preplace netloc ps7_0_axi_periph_M02_AXI 1 1 2 700 1570 1170
+preplace netloc processing_system7_0_DDR 1 2 1 1440
+preplace netloc xlconstant_1_dout 1 2 1 1240
+preplace netloc wireless_mgr_0_SDIO_CLK_FB 1 1 2 640J 1660 1300
+preplace netloc wireless_mgr_0_BT_CTS_IN_N 1 1 2 610 0 1500J
+preplace netloc wireless_mgr_0_SDIO_DATA_to_Zynq 1 1 2 650J 1640 1250
+preplace netloc processing_system7_0_SDIO0_CMD_T 1 0 3 -120 1890 NJ 1890 1350
+preplace netloc bluetooth_uart_INT 1 0 3 -60 1840 NJ 1840 1400
+preplace netloc wireless_mgr_0_UART_RX 1 1 2 520J 1830 1410
+preplace netloc processing_system7_0_GPIO_O 1 0 3 -80 1810 NJ 1810 1310
+preplace netloc axi_iic_0_iic2intc_irpt 1 0 3 -40 1820 NJ 1820 1420
+preplace netloc processing_system7_0_M_AXI_GP0 1 1 2 720 1540 1200
+preplace netloc wireless_mgr_0_BT_REG_ON 1 1 2 500J 1780 1450
+preplace netloc processing_system7_0_SDIO0_CLK 1 0 3 -150 1880 NJ 1880 1380
+preplace netloc processing_system7_0_FCLK_RESET0_N 1 0 3 -70 1850 NJ 1850 1280
+preplace netloc ps7_0_axi_periph_M03_AXI 1 1 2 710 1560 1160
+preplace netloc wireless_mgr_0_UART_CTS 1 1 2 540J 1650 1360
+preplace netloc processing_system7_0_SDIO0_DATA_O 1 0 3 -140 1900 NJ 1900 1330
+preplace netloc BT_TXD_OUT_1 1 0 1 -190
+preplace netloc ps7_0_axi_periph_M01_AXI 1 1 2 680 1580 1190
+preplace netloc wireless_mgr_0_WL_SDIO_CLK 1 1 2 560J 1800 1520
+preplace netloc wireless_mgr_0_UART_TX 1 0 3 -130 1920 NJ 1920 1430
+preplace netloc rst_ps7_0_50M_interconnect_aresetn 1 1 1 590
+preplace netloc BT_RTS_OUT_N_1 1 0 1 -180
+preplace netloc xlconcat_0_dout 1 1 1 580
+preplace netloc wireless_mgr_0_SDIO_CDN 1 1 2 620J 1620 1220
+preplace netloc processing_system7_0_GPIO_T 1 0 3 -100 1870 NJ 1870 1390
+preplace netloc processing_system7_0_FIXED_IO 1 2 1 1480
+preplace netloc axi_gpio_0_GPIO2 1 2 1 1430
+preplace netloc rst_ps7_0_50M_peripheral_aresetn 1 1 1 670
+preplace netloc BT_HOST_WAKE_1 1 0 1 -170
+preplace netloc axi_iic_0_IIC 1 2 1 1490
+preplace netloc axi_gpio_0_GPIO 1 2 1 1460
+preplace netloc wireless_mgr_0_WL_REG_ON 1 1 2 510J 1790 1500
+preplace netloc processing_system7_0_SDIO0_CMD_O 1 0 3 -110 1860 NJ 1860 1340
+preplace netloc wireless_mgr_0_UART_RTS 1 0 3 -90 1680 NJ 1680 1370
+preplace netloc wireless_mgr_0_SDIO_CMD_to_Zynq 1 1 2 630J 1630 1270
+preplace netloc wireless_mgr_0_BT_RXD_IN 1 1 2 570J 1600 1470
+preplace netloc processing_system7_0_SDIO0_DATA_T 1 0 3 -160 1910 NJ 1910 1320
+preplace netloc processing_system7_0_FCLK_CLK0 1 0 3 -50 690 660 1590 1210
+preplace netloc Net1 1 1 2 570J -10 1490
+preplace netloc Net 1 1 2 530J -20 1510
+preplace netloc ps7_0_axi_periph_M00_AXI 1 1 2 690 1550 1180
+preplace netloc axi_gpio_1_GPIO 1 2 1 1420
+preplace netloc wireless_mgr_0_SDIO_WP 1 1 2 550J 1670 1230
+preplace netloc wireless_mgr_0_GPIO_to_Zynq 1 1 2 600J 1610 1290
+preplace netloc processing_system7_0_FCLK_CLK1 1 2 1 1260
+preplace netloc WL_HOST_WAKE_1 1 0 1 -200
+levelinfo -pg 1 -220 230 940 1540 -top -30 -bot 1940
+",
+}
+

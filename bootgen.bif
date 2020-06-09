@@ -1,0 +1,8 @@
+the_ROM_image:
+{
+  [bootloader] ./images/linux/zynq_fsbl.elf
+  ./images/linux/minized_petalinux_wrapper.bit
+  ./images/linux/u-boot.elf
+  [, offset=0x270000, partition_owner=uboot] ./images/linux/image.ub
+}
+

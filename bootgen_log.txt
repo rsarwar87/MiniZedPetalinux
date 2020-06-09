@@ -1,0 +1,77 @@
+[INFO]   : Command line parsing completed successfully
+[INFO]   : Bootgen Version - 2017.4, Nov 23, 2017
+[INFO]   : Filename: ./images/linux/zynq_fsbl.elf
+[INFO]   : Parsing Partition Data
+[INFO]   : Filename: ./images/linux/minized_petalinux_wrapper.bit
+[INFO]   : Parsing Partition Data
+[INFO]   : Filename: ./images/linux/u-boot.elf
+[INFO]   : Parsing Partition Data
+[INFO]   : Filename: ./images/linux/image.ub
+[INFO]   :  Offset: 270000
+[INFO]   : Parsing Partition Data
+[INFO]   : BIF file parsing completed successfully
+[INFO]   : Building image - the_ROM_image
+[INFO]   : Building the Partition Header Table
+[INFO]   : After build 
+           -- Dump of Binary Image ----
+           00000000 Len: 000008a0 Res: 00000000 "BootHeader"
+           00000000 Len: 00000040 Res: 00000000 "ImageHeaderTable"
+           00000000 Len: 00000024 Res: 00000000 "ImageHeader zynq_fsbl.elf"
+           00000000 Len: 00000034 Res: 00000000 "ImageHeader minized_petalinux_wrapper.bit"
+           00000000 Len: 00000020 Res: 00000000 "ImageHeader u-boot.elf"
+           00000000 Len: 00000020 Res: 000002c0 "ImageHeader image.ub"
+           00000000 Len: 00000040 Res: 00000000 "PartitionHeader zynq_fsbl.elf.0"
+           00000000 Len: 00000040 Res: 00000000 "PartitionHeader minized_petalinux_wrapper.bit.0"
+           00000000 Len: 00000040 Res: 00000000 "PartitionHeader u-boot.elf.0"
+           00000000 Len: 00000040 Res: 00000000 "PartitionHeader image.ub.0"
+           00000000 Len: 00000040 Res: 00000980 "PartitionHeader Null"
+           00000000 Len: 00018008 Res: 00000000 "zynq_fsbl.elf.0"
+           00000000 Len: 000a9400 Res: 00000000 "minized_petalinux_wrapper.bit.0"
+           00000000 Len: 0005473c Res: 00000000 "u-boot.elf.0"
+           00270000 Len: 027862e8 Res: 00000000 "image.ub.0"
+           -- End of Dump
+[INFO]   : After align 
+           -- Dump of Binary Image ----
+           00000000 Len: 000008a0 Res: 00000000 "BootHeader"
+           000008c0 Len: 00000040 Res: 00000000 "ImageHeaderTable"
+           00000900 Len: 00000024 Res: 00000000 "ImageHeader zynq_fsbl.elf"
+           00000940 Len: 00000034 Res: 00000000 "ImageHeader minized_petalinux_wrapper.bit"
+           00000980 Len: 00000020 Res: 00000000 "ImageHeader u-boot.elf"
+           000009c0 Len: 00000020 Res: 000002c0 "ImageHeader image.ub"
+           00000c80 Len: 00000040 Res: 00000000 "PartitionHeader zynq_fsbl.elf.0"
+           00000cc0 Len: 00000040 Res: 00000000 "PartitionHeader minized_petalinux_wrapper.bit.0"
+           00000d00 Len: 00000040 Res: 00000000 "PartitionHeader u-boot.elf.0"
+           00000d40 Len: 00000040 Res: 00000000 "PartitionHeader image.ub.0"
+           00000d80 Len: 00000040 Res: 00000980 "PartitionHeader Null"
+           00001700 Len: 00018008 Res: 00000000 "zynq_fsbl.elf.0"
+           00019740 Len: 000a9400 Res: 00000000 "minized_petalinux_wrapper.bit.0"
+           000c2b40 Len: 0005473c Res: 00000000 "u-boot.elf.0"
+           00270000 Len: 027862e8 Res: 00000000 "image.ub.0"
+           -- End of Dump
+[INFO]   : Partition Information: 
+[INFO]   : Image: zynq_fsbl.elf
+[INFO]   :      1. Partition: zynq_fsbl.elf.0,  Size: 98312
+[INFO]   : Image: minized_petalinux_wrapper.bit
+[INFO]   :      2. Partition: minized_petalinux_wrapper.bit.0,  Size: 693248
+[INFO]   : Image: u-boot.elf
+[INFO]   :      3. Partition: u-boot.elf.0,  Size: 345916
+[INFO]   : Image: image.ub
+[INFO]   :      4. Partition: image.ub.0,  Size: 41444072
+[INFO]   : After Link 
+           -- Dump of Binary Image ----
+           00000000 Len: 000008a0 Res: 00000000 "BootHeader"
+           000008c0 Len: 00000040 Res: 00000000 "ImageHeaderTable"
+           00000900 Len: 00000024 Res: 00000000 "ImageHeader zynq_fsbl.elf"
+           00000940 Len: 00000034 Res: 00000000 "ImageHeader minized_petalinux_wrapper.bit"
+           00000980 Len: 00000020 Res: 00000000 "ImageHeader u-boot.elf"
+           000009c0 Len: 00000020 Res: 000002c0 "ImageHeader image.ub"
+           00000c80 Len: 00000040 Res: 00000000 "PartitionHeader zynq_fsbl.elf.0"
+           00000cc0 Len: 00000040 Res: 00000000 "PartitionHeader minized_petalinux_wrapper.bit.0"
+           00000d00 Len: 00000040 Res: 00000000 "PartitionHeader u-boot.elf.0"
+           00000d40 Len: 00000040 Res: 00000000 "PartitionHeader image.ub.0"
+           00000d80 Len: 00000040 Res: 00000980 "PartitionHeader Null"
+           00001700 Len: 00018008 Res: 00000000 "zynq_fsbl.elf.0"
+           00019740 Len: 000a9400 Res: 00000000 "minized_petalinux_wrapper.bit.0"
+           000c2b40 Len: 0005473c Res: 00000000 "u-boot.elf.0"
+           00270000 Len: 027862e8 Res: 00000000 "image.ub.0"
+           -- End of Dump
